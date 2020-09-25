@@ -139,8 +139,9 @@ ul {
     display: grid;
     align-items: center;
     grid-template: repeat(3, 8px) / 1fr;
-    z-index: 3;
     justify-self: end;
+    cursor: pointer;
+    z-index: 3;
   }
 
   .header__burger::before,
